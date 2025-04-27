@@ -1,0 +1,41 @@
+# Site settings
+title: YourDB
+email: info@yourdb.com
+description: >-
+  The Open Source Firebase Alternative. Build in a weekend. Scale to millions.
+  YourDB provides all the backend features you need to build a product.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: yourdb
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - README.md
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /docs/:path/
+
+# Default settings
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: "_docs"
+    values:
+      layout: "page"

@@ -1,0 +1,9 @@
+- title: Features
+  url: "#features"
+- title: How It Works
+  url: "#how-it-works"
+- title: Pricing
+  url: "#pricing"
+- title: Start Free
+  url: "#"
+  class: btn

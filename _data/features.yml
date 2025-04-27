@@ -1,0 +1,23 @@
+- title: PostgreSQL Database
+  icon: 📊
+  description: Use the world's most advanced open source database, with real-time subscriptions powered by our websocket API.
+
+- title: Authentication
+  icon: 🔐
+  description: User management with row level security. Support for email/password, magic links, and OAuth providers.
+
+- title: Storage
+  icon: 📁
+  description: Store and serve large files. Manage access and permissions with policies that integrate with your database.
+
+- title: Serverless Functions
+  icon: ⚡
+  description: Write and deploy serverless functions that connect directly to your database with our server-side SDK.
+
+- title: Realtime
+  icon: 📈
+  description: Listen to database changes and build reactive applications with our websocket API and client libraries.
+
+- title: Edge Functions
+  icon: 🧩
+  description: Deploy custom code globally, responding to events and API requests with minimal latency.

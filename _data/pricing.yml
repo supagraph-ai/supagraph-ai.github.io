@@ -1,0 +1,39 @@
+- name: Free
+  price: $0
+  description: Perfect for side projects and experiments
+  features:
+    - 2 projects
+    - 500MB database
+    - 1GB storage
+    - 50K edge function invocations
+    - Community support
+  button_text: Start Free
+  button_url: "#"
+
+- name: Pro
+  price: $25
+  description: For startups and growing applications
+  features:
+    - Unlimited projects
+    - 8GB database
+    - 100GB storage
+    - 2M edge function invocations
+    - Email support
+    - Daily backups
+  button_text: Upgrade to Pro
+  button_url: "#"
+  featured: true
+
+- name: Team
+  price: $599
+  description: For organizations with multiple apps
+  features:
+    - Unlimited projects
+    - 100GB database
+    - 1TB storage
+    - Unlimited edge function invocations
+    - Priority support
+    - Point-in-time recovery
+    - SOC2 compliance
+  button_text: Contact Sales
+  button_url: "#"

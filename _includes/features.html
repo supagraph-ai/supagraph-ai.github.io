@@ -1,0 +1,17 @@
+<section class="features" id="features">
+  <div class="container">
+    <div class="section-title">
+      <h2>Everything You Need to Build a Modern App</h2>
+      <p>YourDB provides all the backend functionality you need to build your product. Focus on building the frontend while we handle the rest.</p>
+    </div>
+    <div class="features-grid">
+      {% for feature in site.data.features %}
+        <div class="feature-card">
+          <div class="feature-icon">{{ feature.icon }}</div>
+          <h3>{{ feature.title }}</h3>
+          <p>{{ feature.description }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

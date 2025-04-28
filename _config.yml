@@ -1,12 +1,11 @@
 # Site settings
-title: YourDB
-email: info@yourdb.com
+title: supagraph
+email: hello@supagraph.com
 description: >-
-  The Open Source Firebase Alternative. Build in a weekend. Scale to millions.
-  YourDB provides all the backend features you need to build a product.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username: yourdb
+  The Open Source Graph Database.
+baseurl: ""
+url: "https://supagraph.com"
+github_username: supagraph-ai
 
 # Build settings
 markdown: kramdown
@@ -22,6 +21,7 @@ exclude:
   - vendor
   - .gitignore
   - README.md
+  - LICENSE
 
 # Collections
 collections:
